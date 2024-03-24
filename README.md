@@ -23,48 +23,13 @@ Type of Loan: It includes categories like “Personal Loan,” “Auto Loan,” 
 
 Now let’s have a look at column insights before moving forward:
 
-<class 'pandas.core.frame.DataFrame'>
+<img width="480" alt="image" src="https://github.com/tvamshi8/credit-scoring-and-segmentation/assets/153074595/806e5146-af06-4b83-a3c3-320f397986e8">
+<img width="448" alt="image" src="https://github.com/tvamshi8/credit-scoring-and-segmentation/assets/153074595/5c1508d3-dfc1-49bc-b430-6d95ef328e02">
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 1000 entries, 0 to 999
-Data columns (total 12 columns):
- #   Column                     Non-Null Count  Dtype  
----  ------                     --------------  -----  
- 0   Age                        1000 non-null   int64  
- 1   Gender                     1000 non-null   object 
- 2   Marital Status             1000 non-null   object 
- 3   Education Level            1000 non-null   object 
- 4   Employment Status          1000 non-null   object 
- 5   Credit Utilization Ratio   1000 non-null   float64
- 6   Payment History            1000 non-null   float64
- 7   Number of Credit Accounts  1000 non-null   int64  
- 8   Loan Amount                1000 non-null   int64  
- 9   Interest Rate              1000 non-null   float64
- 10  Loan Term                  1000 non-null   int64  
- 11  Type of Loan               1000 non-null   object 
-dtypes: float64(3), int64(4), object(5)
 
 Now let’s have a look at the descriptive statistics of the data:
 
-Age  Credit Utilization Ratio  Payment History  \
-count  1000.000000               1000.000000      1000.000000   
-mean     42.702000                  0.509950      1452.814000   
-std      13.266771                  0.291057       827.934146   
-min      20.000000                  0.000000         0.000000   
-25%      31.000000                  0.250000       763.750000   
-50%      42.000000                  0.530000      1428.000000   
-75%      54.000000                  0.750000      2142.000000   
-max      65.000000                  1.000000      2857.000000   
-
-       Number of Credit Accounts   Loan Amount  Interest Rate    Loan Term  
-count                1000.000000  1.000000e+03    1000.000000  1000.000000  
-mean                    5.580000  2.471401e+06      10.686600    37.128000  
-std                     2.933634  1.387047e+06       5.479058    17.436274  
-min                     1.000000  1.080000e+05       1.010000    12.000000  
-25%                     3.000000  1.298000e+06       6.022500    24.000000  
-50%                     6.000000  2.437500e+06      10.705000    36.000000  
-75%                     8.000000  3.653250e+06      15.440000    48.000000  
-max                    10.000000  4.996000e+06      19.990000    60.000000  
+<img width="472" alt="image" src="https://github.com/tvamshi8/credit-scoring-and-segmentation/assets/153074595/1c015b2b-972a-40e6-9f2f-ad4bcf1efccb">
 
 Now let’s have a look at the distribution of the credit utilization ratio in the data:
 
